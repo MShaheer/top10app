@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>homePage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+   <!-- <script src="/JQuery/jquery-migrate-1.1.1.min.js"></script>
+    <script src="/JQuery/jquery-1.9.1.js"></script>-->
+    <script src="../../JQuery/jquery-1.8.3.js"></script>
+
+
+    <!-- SlidesJS Required (if responsive): Sets the page width to the device width. -->
+  <meta name="viewport" content="width=device-width">
+  <!-- End SlidesJS Required -->
+    <link href="../slider/css/example.css" rel="stylesheet" />
+  <link href="../slider/css/font-awesome.min.css" rel="stylesheet" />
+
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/home/home.css" rel="stylesheet" />
+    <script src="/pages/home/home.js"></script>
+            
+   
+
+
+    <style>
+    body {
+      -webkit-font-smoothing: antialiased;
+      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #232525;
+      /*padding-top:70px;*/
+    }
+
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    #slides .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(../slider/img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+  </style>
+  <!-- End SlidesJS Optional-->
+
+  <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+  <style>
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
+  </style>
+  <!-- SlidesJS Required: -->
+
+
+
+
+
+
+
+
+    </head>
+<body>
+    <!-- The content that will be loaded and displayed. -->
+    <div class="fragment homepage">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <div id="heading" class="titlearea win-type-ellipsis">
+                
+                <span class="pagetitle">
+                    
+                    <span id="top10">TOP-10</span> App</span>
+            </div>
+        </header>
+        <section aria-label="Main content" role="main">
+            <!--<p id="content">Content goes here.</p>-->
+        
+
+             <!-- SlidesJS Required: Start Slides -->
+  <!-- The container is used to define the width of the slideshow -->
+  
+          
+           
+            <div class="container">
+    <div id="slides">
+     <!-- <img src="../slider/img/cars%20(1).jpg" alt="catcars">
+      <img src="../slider/img/cars%20(2).jpg" alt="catcars">-->
+      <img id="pos1" src="../../bg%20pats/no%20imageicon.png" alt="catcars">
+      <img id="pos2" src="../../bg%20pats/no%20imageicon.png" alt="catcars">
+      <img id="pos3" src="../../bg%20pats/no%20imageicon.png" alt="catcars">
+      <img id="pos4" src="../../bg%20pats/no%20imageicon.png" alt="catcars">
+      <img id="pos5" src="../../bg%20pats/no%20imageicon.png" alt="catcars">
+      <img id="pos6" src="../../bg%20pats/no%20imageicon.png" alt="catcars">
+      <img id="pos7" src="../../bg%20pats/no%20imageicon.png" alt="catcars">
+      <img id="pos8" src="../../bg%20pats/no%20imageicon.png" alt="catcars">
+      <img id="pos9" src="../../bg%20pats/no%20imageicon.png" alt="catcars">
+      <img id="pos10" src="../../bg%20pats/no%20imageicon.png" alt="catcars">
+  
+
+      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+       
+    </div>
+
+            <!--<a href="home.html">Home Page</a>-->
+            <div id="pikcaption" class="captions"> </div>
+
+</div>
+               
+           <div id="maincontainer">
+               <a  href="#"><img id="catcars" class="catpics" src="/catpics/catcars.png" alt="Description: This category includes cars which are listed in no particular order and are selected on the basis of speed,design,performance,luxury,cost & type.<br /><br />Related categories: Bikes, Jets"> <div class="text">CARS</div> </a> 
+               <a  href="#"><img id="catbikes" class="catpics" src="/catpics/catbikes.png" alt="Description: This category includes bikes which are listed in no particular order and are selected on the basis of speed,design,performance,luxury,cost & type.<br /><br />Related categories: Cars, Jets"> <div class="text"><p>BIKES</p></div> </a>
+               <a  href="#"><img id="catjets" class="catpics" src="/catpics/catjets.png" alt="Description: This category includes jets which are listed in no particular order and are selected on the basis of speed,design,performance,luxury,cost,capabilities & type.<br /><br />Related categories: Cars, Bikes, Weapons">  <div class="text"><p>AIRCRAFTS</p></div> </a>
+               <a  href="#"><img id="catgames" class="catpics" src="/catpics/catgames.png" alt="Description: This category includes games which are listed in no particular order and are selected on the basis of storyline,garphics,gameplay,controls,complexity & type.<br /><br />Related categories: "> <div class="text"><p>GAMES</p></div> </a>
+               <a  href="#"><img id="catmovies" class="catpics" src="/catpics/catmovies.png" alt="Description: This category includes movies which are listed in no particular order and are selected on the basis of genre,acting,directing,soundtracks,budget,storyline,graphics.<br /><br />Related categories: "> <div class="text"><p>MOVIES</p></div> </a>
+               <a  href="#"><img id="catresorts" class="catpics" src="/catpics/catresorts.png" alt="Description: This category includes resorts which are listed in no particular order and are selected on the basis of location,luxury,budget & beauty.<br /><br />Related categories: Places, Beaches"> <div class="text"><p>RESORTS</p></div> </a>
+               <a  href="#"><img id="catbeaches" class="catpics" src="/catpics/catbeaches.png" alt="Description: This category includes beaches which are listed in no particular order and are selected on the basis of location,beauty,facilities & uniqueness.<br /><br />Related categories: Resorts, Places"> <div class="text"><p>BEACHES</p></div> </a>
+               <a  href="#"><img id="catdeadliestcreatures" class="catpics" src="/catpics/catdeadliestcreatures.png" alt="Description: This category includes deadliest creatures which are listed in no particular order and are selected on the basis of uniqueness,strength,venomous,poisonous & degree of danger they possess.<br /><br />Related categories: Strange Creatures"> <div class="text"><p>DEADLIEST CREATURES</p></div> </a>
+               <a  href="#"><img id="catstrangecreatures" class="catpics" src="/catpics/catstrangecreatures.png" alt="Description: This category includes strange creatures which are listed in no particular order and are selected on the basis of uniqueness,rarity & strangeness.<br /><br />Related categories: Deadliest Creatures"> <div class="text"><p>STRANGE CREATURES</p></div> </a>
+               <a  href="#"><img id="catplaces" class="catpics" src="/catpics/catplaces.png" alt="Description: This category includes places which are listed in no particular order and are selected on the basis of location,landscape,facilities,uniqueness,luxury,budget & beauty.<br /><br />Related categories: Beaches, Resorts, Landscapes"> <div class="text"><p>PLACES</p></div> </a>
+               <a  href="#"><img id="catlandscapes" class="catpics" src="/catpics/catslandscapes.png" alt="Description: This category includes landscapes which are listed in no particular order and are selected on the basis of beauty & location.<br /><br />Related categories: Beaches, Places, Resorts"> <div class="text"><p>LANDSCAPES</p></div> </a>
+               <a  href="#"><img id="catweapons" class="catpics" src="/catpics/catweapons.png" alt="Description: This category includes weapons which are listed in no particular order and are selected on the basis of power,design,performance,cost,capabilities & type.<br /><br />Related categories: Jets"> <div class="text"><p>WEAPONS</p></div> </a>      
+            </div> 
+
+            <div id="descontainer">
+                <div id="pic"> <img id="pic1" src="/catpics/catcars.png"  /> </div>
+                <div id="info"><p> Description: This category includes cars which are listed in no particular order and are selected on the basis of speed,design,performance,luxury,cost & type.<br />
+                    <br />Related categories: Bikes, Jets</p>
+                </div>
+                
+            </div>
+            <a href="home.html"> <img id="homebutton" src="../../bg%20pats/Home-icon.png"/> </a>
+
+            <div id="footbar">
+                <!--<a href="../page.html">../page.html</a>-->
+                <!--<a href="../slider/slider.html">../slider/slider.html</a>-->
+                <div class="separator" id="separatorl" style="width:1px; height:70%; background-color: white"></div>
+               <div class="separator" id="separatorr" style="width:1px; height:70%; background-color: white"></div>
+            </div> 
+
+            <!-- SlidesJS Required: Link to jquery.slides.js -->
+ <script src="../slider/js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+                
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+      $(function () {
+          $('#slides').slidesjs({
+              width: 940,
+              height: 528,
+              
+              navigation: false,
+              
+          });
+      });
+  </script>
+  <!-- End SlidesJS Required -->
+            
+            <div id="imagescontainer">
+              
+                <div class="cars">              
+                    <img src="../../pics/most-expensive-cars-01.jpg" alt="Bugatti Veyron Super Sport (About 2,480,000 $).Made it into the Guinness Book with a top speed of 431 kilometers per hour. But the market is limited to 415 kilometers per hour Veyron Super Sport is a 1200 horsepower engine. Compare prices with other versions of the Bugatti 16.4 Grand Sport and The basic version of the Bugatti Veyron 16.4. Relatively more expensive. Top speed increased just 8 kilometers per hour." />
+                    <img src="../../pics/most-expensive-cars-02.jpg" alt="Koenigsegg Agera  (About 1,434,000 $).Swedish super car. The chassis is made of carbon fiber and aluminum, 910-horsepower Koenigsegg Agera has the power to accelerate from 0 to 100 kilometers per hour. In less than 3.1 seconds and has a claim that a car that has the most space in class."/>
+                    <img src="../../pics/most-expensive-cars-03.jpg" alt="Maybach Landaulet  (About 1,340,000 $).Launched at the Detroit Motor Show 2008. The basis of the specific 62S convertible rear cabin. V-12 engine in a virtual Luxurious apartments in the refrigerator, folding tables with wheels, was released in the Detroit Motor Show in 2008"/>
+                    <img src="../../pics/most-expensive-cars-04.jpg" alt="Pagani Zonda C9 (About 1.2 million $).Is now open as well. However, this model is currently under testing company. The 700 horsepower engine from Mercedes – Benz. Production is limited to only 40 cars built from materials with an innovative chassis. Carbon titanium. There are over 4,000 new parts created from the previous version and production limited to 40 cars."/>
+                    <img src="../../pics/most-expensive-cars-05.jpg" alt="Ferrari F70 (About 832,000 $).Although it was not released at this time. But the success of the ‘n’ roll to a ranking that will produce the Ferrari F70 came out in the year 2012, which is now the only graphics only."/>
+                    <img src="../../pics/most-expensive-cars-06.jpg" alt="SSC Ultimate Aero (650,000 $)It is said that the car is going to be bested by the Bugatti Veyron. Because this car can do a top speed of 439 kilometers per hour unofficially. Of the V-8 engine that produces up to 1,287 ticket LeBlanc Mirabeau is sufficiently different from the facilities attached to it. The chassis is made of carbon fiber. The interior is a light weight material as well."/>
+                    <img src="../../pics/most-expensive-cars-07.jpg" alt="LeBlanc Mirabeau (650,000 $)Swiss national thoroughbred racing. And can be used on public roads. If you would like to have leather seats or facilities. Have to pay a surcharge. Because this model focuses on the acceleration and hands Serling was. Super-charged V-8 engine with 700 hp Torque 86.61 Kk.-m."/>
+                    <img src="../../pics/most-expensive-cars-08.jpg" alt="Ferrari SA Aperta ( 520,000 $)Unveiled in Paris Motor Show 2012, Ferrari SA Aperta (The word Aperta is Italian means is open) is a special edition celebrating 80 years of the Pittsburgh New Faribault to use based on the Ferrari 599 GTO engine V-12 is 670 horsepower acceleration. 0-96 miles per hour in 3.5 seconds, limited to 80 cars."/>
+                    <img src="../../pics/most-expensive-cars-09.jpg" alt="Lamborghini Murcielago LP670-4 SuperVelo (450,000 $)Completely different because it is a sports car with 10 varieties of sushi. V-12 engine with a capacity of 6500 cc, 670 horsepower 4-wheel drive accelerates from 0 to 96 miles per hour less than 3.2 seconds and with the people who bought it. To get to the clutch pedal with manual transmission 6 strokes."/>
+                    <img src="../../pics/most-expensive-cars-10.jpg" alt="Rolls-Royce Phantom Drophead Coupe  (443,000 $)Many people may guess wrong. The expensive luxury cars like Rolls Royce is the only version of the Top 10 is a convertible Thompson fan engine are 453 horsepower V-12 is furnished with a special wooden texture."/>                                
+                </div>
+                
+                <div class="bikes">
+                    <img src="../../pics/bikes(1).jpg" alt="Retailing for $160,000, the crotch rocket takes boutique motorcycles to new heights, giving itself a unique semi-retro styling, while packing in the power to appease even the most discriminating speed freaks.  Icon is making it as a tribute to legendary rider Barry Sheene, one of the UK's most successful motorcycle racers.The Icon Sheene is powered by a hand-built Suzuki 1400cc turbocharged Hayabusa engine with Carrillo rods and Wiseco pistons, pumping out 250hp and 133 lb/ft of torque.  It boasts carbon-fiber bodywork and wheels, along with numerous handmade components, such as the stainless steel exhaust, aluminum fuel tank and aluminum oil-coolers."/>
+                    <img src="../../pics/bikes(2).jpg" alt="The engine is machined from a solid block of billet aluminium and features a race-spec crankshaft, a supercharger, intercooler and fuel injection. From its 2147cc capacity, the pushrod V-twin pumps out some 207bhp and a mighty 218ftlb of torque, or two-and-a-half times as much as a 1000cc superbike can muster.This Ecosse Heretic Titanium is the most expensive new bike on the market – with a list price that’s the equivalent of £133,000."/>
+                    <img src="../../pics/bikes%20(3).jpg" alt="2013 BMW S1000RR HP4 Price: $19,990 How exactly can we include a $20,000 motorcycle in a group of best buys? It's because BMW's new HP4 offers technology that no other motorcycle does—at any price. The HP4 model builds on the S1000RR's breakthrough electronics, which included Dynamic Traction Control (DTC), a system that allowed for tremendous performance and safety envelope. For the HP4, the DTC system has been massaged to operate more fluidly and now offers more than a dozen different settings."/>
+                    <img src="../../pics/bikes%20(4).jpg" alt="Harley-Davidson Iron 883 Price: $7999 Even for a manufacturer like Harley-Davidson, which trades on its old-fashioned reputation, the Dark Custom series is like a time machine back to when motorcycles were the transportation of rebels. Back then, custom bikes were more raw and less flashy than today's chrome-plated luxo-cruisers. These new bikes ape that look with bobbed fenders, a hunkered-down stance, and flat paint finish. They've got blacked-out trim and lots of retro touches, too. But if you want the top dog Blackline, which is based on the Softail, it'll run you close to $16,000. Woof."/>
+                    <img src="../../pics/bikes%20(5).jpg" alt="Star Stryker Price: $11,090 The Star Stryker is the most expensive bike on this list, but when it comes to long and low chopper-style cruisers, this one is a bargain. It undercuts Honda's Fury by more than two grand and competitive Harley-Davidsons by thousands more. The Stryker's big torque, which comes courtesy of its potent 1304cc, liquid-cooled V-twin, allows it to lope easily away from the line. And though it has some serious rake (40 degrees), the Stryker feels better connected to the road than most in the class."/>
+                    <img src="../../pics/bikes%20(6).jpg" alt="Kawasaki Ninja 250 Price: $3999 In terms of thrills per dollar, the Kawasaki Ninja 250R is one of the best bargains of them all. This little guy is really fun to ride. The tiny 250cc parallel twin spins to a ludicrous 10,000 rpm and sounds sweet doing it.Okay, so it's not fast. But it will hit 60 mph in about 7 seconds, so it's not exactly slow either. On the twisty roads, this bike handles beautifully—it's willing to play hard just like larger sportbikes. But beware; it's not a relaxing ride. The pocketsize Ninja is buzzy on the freeway."/>
+                    <img src="../../pics/bikes%20(7).jpg" alt="As the old saying goes, if you want to extract all of the potential from an engine, stroke it! Well"/>
+                    <img src="../../pics/bikes%20(8).jpg" alt="2012 Yamaha Super Tenere Price: $13,900 Ask most gearheads to picture an adventure bike and the first image that likely pops into their minds would be one of BMW's legendary GS bikes. There's a good reason: BMW invented the breed nearly 30 years ago. But today there are plenty of competitors building adventure bikes that bridge the gap between street motorcycle and off-road dual-sport, by offering decent off-road capability while still providing long-range touring ability. Think of them as the SUVs of the motorcycle word, only a lot easier to park and considerably more fun."/>
+                    <img src="../../pics/bikes%20(9).jpg" alt="2013 Moto Guzzi V7 Racer Price: $9990 Moto Guzzi pays homage to its racing heritage with this modern interpretation of a classic cafe racer. It's got the right look, especially if vintage 1970's sport bikes are your weakness.Don't expect to threaten many modern sports machines with this one. The V7 Racer uses an updated 744-cc V-twin with more compression and an improved fuel-injection system, but it's still a little underpowered at just 50 hp."/>
+                    <img src="../../pics/bikes%20(10).jpg" alt="2013 Moto Guzzi California 1400 Custom - First Ride - Long before the glamorous center-stage unveiling of the California 1400 at last year’s Milan show."/>
+                </div>
+
+                <div class="jets">
+                    <img src="../../pics/jets%20(1).jpg" alt="The F/A-22 Raptor is a fifth generation stealth fighter aircraft, which entered the United States Air Force as the F-22A. Each Engine is in the 35,000-lb-thrust class. Maximum Speed: Mach 2.42 at high altitude Cruise Speed: Mach 1.72. This pilot only aircraft can carry six radar-guided AIM-120C advanced medium-range A2A missiles in its main weapon bay, two heat-seeking AIM-9 Sidewinder short-range A2A missiles in side weapons bay, one M61A2 20 mm multi-barrel cannon."/>
+                    <img src="../../pics/jets%20(2).jpg" alt="The B2 Spirit is a multi-role stealth bomber which is capable to drop conventional and nuclear weapons. The aircraft comes with unique 'stealth' characteristics that give it the ability to hide itself from enemy's most sophisticated defenses enabling it to attack right from the enemy's prime locations. The B-2 can carry a crew of 2-3 soldiers along with up to 80,000 lb payload including 16 B61/b83 nuclear bombs, 80 Mk82 1,000 lb bombs or 16 Mk84 2,000 lb bombs, 36 M117 750 lb fire bombs, 36 cluster bombs, or 80 Mk36 1,000 lb sea mines."/>
+                    <img src="../../pics/jets%20(3).jpg" alt="The F-117A Nighthawk is the world's first operational aircraft designed to exploit low-observable stealth technology. The single-seat F-117A provides exceptional combat capabilities. It is designed to carry 2 internal weapons bays with one hardpoint each, which can further carry BLU-109 hardened penetrator bombs, GBU-10 Paveway II, GBU-12 Paveway II and GBU-27 Paveway III laser-guided bombs and JDAM inertially aided munition."/>
+                    <img src="../../pics/jets%20(4).jpg" alt="The F-35 Lightning II is a single-seat, single-engine military strike fighter. Its multi-role capabilities enable it to perform close air support, tactical bombings and air-to-air combat. It is designed to carry 1 GAU-12/U 25 mm cannon, up to four AIM-120 AMRAAM, AIM-9X Sidewinder or AIM-132 ASRAAM internally or two air-to-air and two air-to-ground weapons. The aircraft is detectable by Radar so it can also carry many more missiles, bombs and even fuel tanks."/>
+                    <img src="../../pics/jets%20(5).jpg" alt="This is a multirole jet fighter designed for the United States Air Force. The aircraft was also successful in the export market and is serving 24 countries. This single-seat aircraft can carry one 20 mm M61 Vulcan gatling gun with 511 rounds, 2.75-inch rockets, six AIM-9 Sidewinder or six AIM-120 AMRAAM or six Python-4 air-to-air missiles, six AGM-65 Maverick or four AGM-88 HARM air-to-ground missiles, four AGM-119 Penguin anti-ship missiles. Apart from this it can carry a huge arsenal of bombs that include B61 nuclear bomb"/>
+                    <img src="../../pics/jets%20(6).jpg" alt="The Joint Fighter-17 Thunder is also called as Fighter China-1 Fierce DragonIIII in China. It is a single-seat multirole fighter aircraft co-developed by Pakistan and China. The JF-17 Thunder carries one internal GSh-23-2 twin-barrel 23 mm cannon, Short (PL-9C/AIM-9M/Magic 2) and beyond-visual-range missiles (SD-10/Aspide), laser guided bombs, other guided munitions and targeting pod can also be carried for precision strike missions."/>
+                    <img src="../../pics/jets%20(7).jpg" alt="The Su-37 is Russia's reply to today's advanced jet fighters. The Su-37 can be considered as the best air dominance fighter in the Eastern hemisphere. The Su-37 is a single-seat, all-weather fighter and ground attack aircraft. The Sukhoi Su-37 can carry one 30 mm GSh-30 cannon with 150 rounds and twelve wing and fuselage stations for up to 18,080 lb of ordnance."/>
+                    <img src="../../pics/jets%20(8).jpg" alt="Based on the MiG-29M OTV, MiG-35 (Nato reporting name Fulcrum F), is equipped with advanced avionic suite comprising of a modern glass cockpit designed with three 6x8 inch flat-panel LCDs and full HOTAS controls, digital map, helmet-mounted sight. The latest Zhuk-AE active electronically scanning array (AESA) radar is mounted on this aircraft. This radar was developed with modular approach, enabling upgrading existing Zhuk ME/MSE radars, into the phased array equipped MFE/MSFE standard, deployed in MiG-29/Su-27 platforms."/>
+                    <img src="../../pics/jets%20(9).jpg" alt="The cockpit (available in single- or twin-seat configurations) is situated forward in the fuselage design, aft of the radar-housing nose cone assembly. The pilot(s) sit (s) under a two-piece canopy offering up excellent views from within the cockpit. The canopy consists of the forward fixed windscreen and the main component which, itself, is hinged at the rear. The contoured fuselage sports small side-mounted strakes near the cockpit and all-moving canard foreplanes. The strakes serve to move stagnant air generated by the canard foreplanes. "/>
+                    <img src="../../pics/jets%20(10).jpg" alt="Rafale is a twin-jet combat aircraft capable of carrying out a wide range of short and long-range missions, including ground and sea attack, air defence and air superiority, reconnaissance, and high-accuracy strike or nuclear strike deterrence.The aircraft has been developed for the French Air Force and Navy. 61 aircraft were ordered (36 for the air force and 25 for the navy)."/>
+                </div>
+
+                <div class="games">
+                    <img src="../../pics/top-50-game-worlds_fallout.jpg" alt="The 1950s were a time of authentic fear for a world embroiled in a Cold War between the United States and the Soviet Union. Nuclear bombardment and mutually assured destruction peeked around every corner, and many people didn't wonder if an exchange would happen, but when it would and how everything would look afterwards. Such a culture left a lasting effect on the world, and it's that post-war what-if that rests at the heart of the Fallout franchise.Of course, things in Fallout go a little bit differently. The aesthetics and inspiration of 1950's America remains firmly implanted everywhere well into the 21st century, and the aforementioned cataclysm doesn't happen in the 1950's, but rather in 2077 when China and the United States go at it. The result of the conflict - which only lasted two hours - was a world crushed under the weight of radioactivity. Thus, Fallout as we know and love it was born, putting us on Earth with a small fraction of its former population density, quarreling governments, mutated creatures and a dog-eat-dog mentality that puts everyone born in immediate and very real danger."/>
+                    <img src="../../pics/top-50-game-worlds_elder-scrolls.jpg" alt="We here at IGN are pretty hard pressed to find a more intricate video game world than that found in The Elder Scrolls. Taking place on the planet of Nirn, the series so far has narrowed its focus on the content of Tamriel. From Morrowind to Summerset Isles, we've walked every square inch of the land taking in adventures large and small. Most recently our trip to Tamriel had us focusing on the region of Skyrim - with its picturesque landscapes and magical creatures of myth.The Elder Scrolls world isn't just defined by the scope of the landscape however. The characters, literature, languages, wildlife, history, and overall culture of the world are what make the series so special. Sure, you can jump in at any point to The Elder Scrolls series, but after playing all the games you realize that its world is nearly as complex as our own. If you're a fan of mythology-heavy worlds, and fantastic adventure then this is world for you."/>
+                    <img src="../../pics/top-50-game-worlds_zelda.jpg" alt="The world of Hyrule has undergone many changes over the past 25 years. It's evolved from the original, 8-bit adventure to the dual worlds of A Link to the Past to the majestic, 3D realization of Ocarina of Time to the painterly vistas of Skyward Sword, with plenty of other interpretations of Link's home town rounding out the package. One thing all these incarnations share is their ability to instill a sense of wonderment in gamers, and to almost magically transport you from your couch to the living, breathing world of Hyrule. Full of kooky inhabitants, memorable locations, a sprawling/epic backstory and countless pots for the breaking, few game worlds manage to leave as indelible an impression on the collective gaming subconscious as Zelda has. For that alone it ranks up there as one of the best, most fully realized worlds in all of gaming."/>
+                    <img src="../../pics/top-50-game-worlds_final-fantasy-vi.jpg" alt="There was a time when the Final Fantasy series wasn't about shallow gameplay and forgettable characters, but rather about an amazing cast placed in an awesome setting. And the best Final Fantasy game ever created - Final Fantasy VI - happens to have not one, but two of the best settings in the entire franchise. Unfortunately, the SNES didn't have the graphical capabilities to render exactly what Square's artists wanted you to see, so a little imagination was required. When you finally got a grasp on just what the worlds you were looking at were trying to be, however, it was hard not to be floored.Steampunk to its core but retaining much of the fantasy-based inspiration the series had always been known for, Final Fantasy VI's world is made all the more rich by its diverse set of towns and cities, each with its own identity. From backwoods villages to industrial havens, Final Fantasy VI had it all. Of course, halfway through the game everything is turned upside down by a cataclysmic event, which makes Final Fantasy VI and its setting truly special. After all, not every game lets you get to explore the entire world both before and after it's utterly destroyed."/>
+                    <img src="../../pics/top-50-game-worlds_cod.jpg" alt="Call of Duty 4: Modern Warfare is a 2007 first-person shooter video game, developed by Infinity Ward and published by Activision.Critically acclaimed, the game received an aggregated score of 94% from both GameRankings and Metacritic, and is considered by many to be the best Call of Duty in the series. The gameplay and story received particular praise, while criticism targeted the failure of the game to substantially innovate the first-person shooter genre"/>
+                    <img src="../../pics/top-50-game-worlds_diablo.jpg" alt="The world of Blizzard's action-RPG is really kind of depressing. It's full of murder-obsessed demons that want nothing more than to corrupt and slaughter humanity. The story was never conveyed very well, which was mostly about carving up hordes of monsters and stockpiling the dropped loot. Non-playable characters stood around towns delivering goofy voice over through text boxes while you had to do all the hard work, clearing dungeons and beating up ultra-powerful boss characters. Then every once in a while, a pre-rendered cinematic triggered to remind you that there was an actual overarching story."/>
+                    <img src="../../pics/top-50-game-worlds_bioshock.jpg" alt="Separated from the rest of society, Rapture upset social norms, formed a different kind of society, and made its own rules. Morality wasn't something men built laws on, it was something they flexed for the greater good of the people. Experimentation created a super-powered human sub-species. Experimentation also drove the populous mad enough to murder. BioShock's world sets a terrific stage, features unforgettable events, and leaves everything in ruin -- all before we even arrive. Players learn about the world by proxy and critical thought. Rapture forces those who want to learn about its gorgeous horror to think about what they're seeing, consider who they're talking to, and really take everything in. You discover the depths willingly. Rapture doesn't just happen to you -- it demands to be consumed"/>
+                    <img src="../../pics/top-50-game-worlds_mass-effect.jpg" alt="Despite the vocal opposition from the game's fanbase about Mass Effect 3's ending, we still find the world within this ambitious space opera to be one of the very best ever conceived in the video game medium.Whether you like your science fiction to be more character focused and intimate, or whether you want it to feature lots of aliens, space ships and epic battles, Mass Effect has created a game with something for everybody. Through Commander Shepard, your avatar in this complex world, you meet alien races with their own unique cultures, go to planets with landscapes unknown to our world, uncover vast political plots which could mean the end of the universe, and still end up with the girl (or guy). The series pushes boundaries in nearly every way, so much so that it has opened doors to explore its intricacies and characters in movies and comics."/>
+                    <img src="../../pics/top-50-game-worlds_warcraft.jpg" alt="What started out as a simple backdrop for an early real-time strategy game has become one of the most fleshed out video game universes. Despite adhering to a number of fantasy tropes, the Warcraft world has come into its own in recent years. Warcraft's stories and developing narrative have ensconced players in a world where war is constant, where heroes are born, and where they have the power to help participate in its history. From the fall and rise (and fall) of Prince Arthas, to the wrath wrought by the return of DeathWing, the WarCraft universe has allowed countless players to live and have a role in shaping a virtual world that's enchanted people from all walks of life."/>
+                    <img src="../../pics/top-50-game-worlds_assassins-creed.jpg" alt="The thrill of exploring Assassin's Creeds worlds has little to do with what the franchise adds to them. Sure, the mystical side of the series is nutty fun, but the joy of exploring, interacting with, and living in actual human history inspires awe in players. The prospect of climbing to the top of a real-life landmark like the Coliseum, stalking Templars in Damascus, and sprinting through a Revolution-era Boston appeals to the interests of history nerds and adventurous minds alike. We get to be part of real-life events and work with long-lost legends in some of Earth's most incredible places. Assassin's Creed is a proxy to see the globe -- for those of us who will never actually get to visit The Vatican, this is the next best thing."/>
+
+                </div>
+
+                <div class="movies">
+                </div>
+
+                <div class="resorts">
+            <img src="../../pics/resorts%20(1).jpg" alt="resorts1"/>
+            <img src="../../pics/resorts%20(2).jpg" alt="resorts2"/>
+            <img src="../../pics/resorts%20(3).jpg" alt="resorts3"/>
+            <img src="../../pics/resorts%20(4).jpg" alt="resorts4"/>
+            <img src="../../pics/resorts%20(5).jpg" alt="resorts5"/>
+            <img src="../../pics/resorts%20(6).jpg" alt="resorts6"/>
+            <img src="../../pics/resorts%20(7).jpg" alt="resorts7"/>
+            <img src="../../pics/resorts%20(8).jpg" alt="resorts8"/>
+            <img src="../../pics/resorts%20(9).jpg" alt="resorts9"/>
+            <img src="../../pics/resorts%20(10).jpg" alt="resorts10"/>
+                </div>
+
+                <div class="beaches">
+                </div>
+                                                              
+                <div class="deadliestcreatures">
+            <img  src="../../pics/deadliestcreatures%20(1).jpg" alt="deadliestcreatures1" />
+            <img src="../../pics/deadliestcreatures%20(2).jpg" alt="deadliestcreatures2"/>
+            <img src="../../pics/deadliestcreatures%20(3).jpg" alt="deadliestcreatures3"/>
+            <img src="../../pics/deadliestcreatures%20(4).jpg" alt="deadliestcreatures4"/>
+            <img src="../../pics/deadliestcreatures%20(5).jpg" alt="deadliestcreatures5"/>
+            <img src="../../pics/deadliestcreatures%20(6).jpg" alt="deadliestcreatures6"/>
+                </div>
+
+                <div class="strangecreatures">
+            <img src="../../pics/strangecreatures%20(1).jpg" alt="strangecreatures1"/>
+            <img src="../../pics/strangecreatures%20(1).png" alt="strangecreatures2"/>
+            <img src="../../pics/strangecreatures%20(2).jpg" alt="strangecreatures3"/>
+            <img src="../../pics/strangecreatures%20(3).jpg" alt="strangecreatures4"/>
+            <img src="../../pics/strangecreatures%20(4).jpg" alt="strangecreatures5"/>
+            <img src="../../pics/strangecreatures%20(5).jpg" alt="strangecreatures6"/>
+            <img src="../../pics/strangecreatures%20(6).jpg" alt="strangecreatures7"/>
+            <img src="../../pics/strangecreatures%20(7).jpg" alt="strangecreatures8"/>        
+            <img src="../../pics/strangecreatures%20(9).jpg" alt="strangecreatures9"/>
+            <img src="../../pics/strangecreatures%20(8).jpg" alt="strangecreatures10"/>
+            <img src="../../pics/strangecreatures%20(10).jpg" alt="strangecreatures11"/>
+                 </div>
+            
+                 <div class="places">
+            <img src="../../pics/places%20(1).jpg" alt="places1"/>
+            <img src="../../pics/places%20(2).jpg" alt="places2"/>
+            <img src="../../pics/places%20(3).jpg" alt="places3"/>
+            <img src="../../pics/places%20(4).jpg" alt="places4"/>
+            <img src="../../pics/places%20(5).jpg" alt="places5"/>
+            <img src="../../pics/places%20(6).jpg" alt="places6"/>
+            <img src="../../pics/places%20(7).jpg" alt="places7"/>
+                </div>
+
+                <div class="landscapes">
+            <img src="../../pics/landscapes%20(1).jpg" alt="landscapes1"/>
+            <img src="../../pics/landscapes%20(2).jpg" alt="landscapes2"/>
+            <img src="../../pics/landscapes%20(3).jpg" alt="landscapes3"/>
+            <img src="../../pics/landscapes%20(4).jpg" alt="landscapes4"/>
+            <img src="../../pics/landscapes%20(5).jpg" alt="landscapes5"/>
+            <img src="../../pics/landscapes%20(6).jpg" alt="landscapes6"/>
+            <img src="../../pics/landscapes%20(7).jpg" alt="landscapes7"/>
+            <img src="../../pics/landscapes%20(8).jpg" alt="landscapes8"/>
+            <img src="../../pics/landscapes%20(9).jpg" alt="landscapes9"/>
+                 </div>
+                                          
+                <div class="weapons">
+                </div>             
+                
+                      
+                 </div>        
+            
+                             
+        </section>
+                   
+     </div>
+
+    
+</body>
+</html>
+

@@ -1,0 +1,214 @@
+﻿header {position:absolute;
+top:-5%;
+}
+
+
+
+
+#footbar {
+    position:absolute;
+    top:94%;
+    left:-2%;
+    width:110%;
+    height:6%;
+    background-color:black;
+    opacity:0.5;
+}
+
+
+#descontainer{
+    position:absolute;
+    border:inset thin gray;
+    top:57%;
+    width:74%;
+    height:28%;
+     padding-top:20px;
+    
+}
+
+#pic {
+    position:absolute;
+    border:dashed thin gray;
+      
+    width:35%;
+    height:87.5%
+}
+
+#imagescontainer {
+visibility:hidden;
+
+}
+
+#homebutton {
+width:30px;
+height:30px;
+opacity:0.7;
+top:95%;
+left:49%;
+position:absolute;
+z-index:5;
+
+}
+#homebutton:hover {
+opacity:1;
+height:31px;
+width:31px;
+}
+
+#pikcaption {
+position:absolute;
+color:black;
+  border: ridge thin gray;
+    left:0%;
+    width:100%;
+    height:25.5%;
+    overflow-y:scroll;
+    padding-right:25px;
+}
+
+#info {
+position:absolute;
+color:black;
+  border:dashed thin gray;
+    left:36%;
+    width:54%;
+    height:87.5%
+}
+
+#test2 {
+    position:absolute;
+    color:black;
+    left:36%;
+    border:dashed thin gray;
+    width:40%;
+    height:5%;
+    top:90%;
+    
+}
+
+img {
+    padding-bottom: 20px;
+
+}
+#maincontainer {
+top:13%;
+padding-top:5px;
+position:absolute;
+border: inset thin gray;
+width:74%;
+height:40%;
+overflow-x:hidden;
+
+-ms-overflow-style:-ms-autohiding-scrollbar;
+scrollbar-3dlight-color:aquamarine;
+scrollbar-track-color:aliceblue;
+scrollbar-arrow-color:darkgrey
+ /*overflow:scroll;*/
+        
+
+}
+.text{
+    position:absolute;
+    top:65px;
+    visibility:hidden;
+}
+.catpics {
+   
+    
+    top:20px;
+    height:150px;  
+width:200px;
+}
+
+.catpics:hover {
+    border:dotted thin black;
+    height:170px;  
+width:220px;
+    
+    }
+
+#imagescontainer img {
+    width:940px;
+    height:528px;
+
+}
+
+.pagetitle {
+    
+    color: #FFFFFF;
+    font-size: 55px;
+    font-family: 'Trajan Pro';
+    background-color: #333333;
+}
+
+.separator {
+position:absolute;
+border-left-width:thin;
+border-left-style:ridge;
+/*border-left-color:black;*/
+/*border-right-style:ridge;
+border-right-color:black;*/
+z-index:6;
+top:10%;
+/*opacity:0.3;*/
+}
+#separatorl {
+left:45.5%;
+}
+#separatorr {
+    left:49%;
+}
+/*#separatorwhole{
+opacity:0.3;
+z-index:7;
+}
+#separatorwhole:hover {
+opacity:1;
+z-index:7;
+}*/
+#top10 {
+font-weight:bold;
+}
+
+.container {
+    visibility:hidden;
+    left:10%;
+    top:12%;
+    position:absolute;
+}
+
+
+
+
+.caption {
+
+    position:relative;
+    width:100%;
+    height:30%;
+    top:70%;
+    background-color:white;
+    border-top:   groove 4px black;
+    
+    opacity:0.5;
+}
+
+.homepage section[role=main] {
+    margin-left: 120px;
+}
+
+body {
+    background-image: url('../../bg pats/grey_@2X.png');
+    
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .homepage section[role=main] {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (-ms-view-state: landscape) {
+    .homepage section[role=main] {
+        margin-left: 100px;
+    }
+}

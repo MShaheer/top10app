@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>a579aa95-92e2-43d7-81de-47aeae246ea9</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateKeyFile>App10_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="bg pats\grey_%402X.png" />
+    <Content Include="bg pats\Home-icon.png" />
+    <Content Include="bg pats\no imageicon.png" />
+    <Content Include="bg pats\noimgicoblck.jpg" />
+    <Content Include="catpics\catbeaches.png" />
+    <Content Include="catpics\catbikes.png" />
+    <Content Include="catpics\catcars.png" />
+    <Content Include="catpics\catdeadliestcreatures.png" />
+    <Content Include="catpics\catgames.png" />
+    <Content Include="catpics\catjets.png" />
+    <Content Include="catpics\catmovies.png" />
+    <Content Include="catpics\catplaces.png" />
+    <Content Include="catpics\catresorts.png" />
+    <Content Include="catpics\catslandscapes.png" />
+    <Content Include="catpics\catstrangecreatures.png" />
+    <Content Include="catpics\catweapons.png" />
+    <Content Include="css\default.css" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="JQuery\jquery-1.8.3.js" />
+    <Content Include="JQuery\jquery-1.9.0.js" />
+    <Content Include="JQuery\jquery-1.9.0.min.js" />
+    <Content Include="js\default.js" />
+    <Content Include="js\navigator.js" />
+    <Content Include="pages\home\home.css" />
+    <Content Include="pages\home\home.html" />
+    <Content Include="pages\home\home.js" />
+    <Content Include="default.html" />
+    <Content Include="pages\page.html" />
+    <Content Include="pages\slider\css\example.css" />
+    <Content Include="pages\slider\css\font-awesome.min.css" />
+    <Content Include="pages\slider\font\fontawesome-webfont.eot" />
+    <Content Include="pages\slider\font\fontawesome-webfont.svg" />
+    <Content Include="pages\slider\font\fontawesome-webfont.ttf" />
+    <Content Include="pages\slider\font\fontawesome-webfont.woff" />
+    <Content Include="pages\slider\font\FontAwesome.otf" />
+    <Content Include="pages\slider\img\cars (1).jpg" />
+    <Content Include="pages\slider\img\cars (2).jpg" />
+    <Content Include="pages\slider\img\cars (3).jpg" />
+    <Content Include="pages\slider\img\cars (4).jpg" />
+    <Content Include="pages\slider\img\cars (5).jpg" />
+    <Content Include="pages\slider\img\pagination.png" />
+    <Content Include="pages\slider\js\jquery.slides.min.js" />
+    <Content Include="pages\slider\slider.css" />
+    <Content Include="pages\slider\slider.html" />
+    <Content Include="pages\slider\slider.js" />
+    <Content Include="pics\bikes (10).jpg" />
+    <Content Include="pics\bikes (3).jpg" />
+    <Content Include="pics\bikes (4).jpg" />
+    <Content Include="pics\bikes (5).jpg" />
+    <Content Include="pics\bikes (6).jpg" />
+    <Content Include="pics\bikes (7).jpg" />
+    <Content Include="pics\bikes (8).jpg" />
+    <Content Include="pics\bikes (9).jpg" />
+    <Content Include="pics\bikes(1).jpg" />
+    <Content Include="pics\bikes(2).jpg" />
+    <Content Include="pics\deadliestcreatures (1).jpg" />
+    <Content Include="pics\deadliestcreatures (2).jpg" />
+    <Content Include="pics\deadliestcreatures (3).jpg" />
+    <Content Include="pics\deadliestcreatures (4).jpg" />
+    <Content Include="pics\deadliestcreatures (5).jpg" />
+    <Content Include="pics\deadliestcreatures (6).jpg" />
+    <Content Include="pics\jets (1).jpg" />
+    <Content Include="pics\jets (10).jpg" />
+    <Content Include="pics\jets (2).jpg" />
+    <Content Include="pics\jets (3).jpg" />
+    <Content Include="pics\jets (4).jpg" />
+    <Content Include="pics\jets (5).jpg" />
+    <Content Include="pics\jets (6).jpg" />
+    <Content Include="pics\jets (7).jpg" />
+    <Content Include="pics\jets (8).jpg" />
+    <Content Include="pics\jets (9).jpg" />
+    <Content Include="pics\landscapes (1).jpg" />
+    <Content Include="pics\landscapes (2).jpg" />
+    <Content Include="pics\landscapes (3).jpg" />
+    <Content Include="pics\landscapes (4).jpg" />
+    <Content Include="pics\landscapes (5).jpg" />
+    <Content Include="pics\landscapes (6).jpg" />
+    <Content Include="pics\landscapes (7).jpg" />
+    <Content Include="pics\landscapes (8).jpg" />
+    <Content Include="pics\landscapes (9).jpg" />
+    <Content Include="pics\most-expensive-cars-01.jpg" />
+    <Content Include="pics\most-expensive-cars-02.jpg" />
+    <Content Include="pics\most-expensive-cars-03.jpg" />
+    <Content Include="pics\most-expensive-cars-04.jpg" />
+    <Content Include="pics\most-expensive-cars-05.jpg" />
+    <Content Include="pics\most-expensive-cars-06.jpg" />
+    <Content Include="pics\most-expensive-cars-07.jpg" />
+    <Content Include="pics\most-expensive-cars-08.jpg" />
+    <Content Include="pics\most-expensive-cars-09.jpg" />
+    <Content Include="pics\most-expensive-cars-10.jpg" />
+    <Content Include="pics\places (1).jpg" />
+    <Content Include="pics\places (2).jpg" />
+    <Content Include="pics\places (3).jpg" />
+    <Content Include="pics\places (4).jpg" />
+    <Content Include="pics\places (5).jpg" />
+    <Content Include="pics\places (6).jpg" />
+    <Content Include="pics\places (7).jpg" />
+    <Content Include="pics\resorts (1).jpg" />
+    <Content Include="pics\resorts (10).jpg" />
+    <Content Include="pics\resorts (2).jpg" />
+    <Content Include="pics\resorts (3).jpg" />
+    <Content Include="pics\resorts (4).jpg" />
+    <Content Include="pics\resorts (5).jpg" />
+    <Content Include="pics\resorts (6).jpg" />
+    <Content Include="pics\resorts (7).jpg" />
+    <Content Include="pics\resorts (8).jpg" />
+    <Content Include="pics\resorts (9).jpg" />
+    <Content Include="pics\strangecreatures (1).jpg" />
+    <Content Include="pics\strangecreatures (1).png" />
+    <Content Include="pics\strangecreatures (10).jpg" />
+    <Content Include="pics\strangecreatures (2).jpg" />
+    <Content Include="pics\strangecreatures (3).jpg" />
+    <Content Include="pics\strangecreatures (4).jpg" />
+    <Content Include="pics\strangecreatures (5).jpg" />
+    <Content Include="pics\strangecreatures (6).jpg" />
+    <Content Include="pics\strangecreatures (7).jpg" />
+    <Content Include="pics\strangecreatures (8).jpg" />
+    <Content Include="pics\strangecreatures (9).jpg" />
+    <Content Include="pics\top-50-game-worlds_assassins-creed.jpg" />
+    <Content Include="pics\top-50-game-worlds_bioshock.jpg" />
+    <Content Include="pics\top-50-game-worlds_cod.jpg" />
+    <Content Include="pics\top-50-game-worlds_diablo.jpg" />
+    <Content Include="pics\top-50-game-worlds_elder-scrolls.jpg" />
+    <Content Include="pics\top-50-game-worlds_fallout.jpg" />
+    <Content Include="pics\top-50-game-worlds_final-fantasy-vi.jpg" />
+    <Content Include="pics\top-50-game-worlds_mass-effect.jpg" />
+    <Content Include="pics\top-50-game-worlds_warcraft.jpg" />
+    <Content Include="pics\top-50-game-worlds_zelda.jpg" />
+    <None Include="App10_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>
